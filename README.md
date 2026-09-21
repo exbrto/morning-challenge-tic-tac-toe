@@ -4,7 +4,7 @@
 
 ### How to submit your code for review:
 
-![screenshot](./images/rc-to-doList.png)
+![screenshot]()
 
 - Fork and clone this repo
 - Create a new branch called answer
