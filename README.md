@@ -5,7 +5,7 @@ A two-player Tic-Tac-Toe game built with vanilla JavaScript, using an object-ori
 ![screenshot](./images/ticTacToe.png)
 
 ## 🔗 Live Demo
-[Try it here]()
+[Try it here](https://tic-tac-toe-simple-style.netlify.app/)
 
 ### Features
 Two-player gameplay (X and O take turns)
