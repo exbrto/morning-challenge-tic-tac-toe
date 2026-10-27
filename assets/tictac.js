@@ -24,7 +24,7 @@ cellDivs.forEach(cell => {cell.addEventListener('click', () => {
 function checkForDraw() {
     let draw = cellDivs.every((element,index) => cellDivs[index].innerText == 'X' || cellDivs[index].innerText == 'O');
     if (draw) {
-        alert(`It's a Draw`)
+        document.querySelector('h2').innerText = `It's a draw, reset the game`
     }
 }
 
@@ -38,7 +38,7 @@ function winnerChickenDinner(){
         (cellDivs[2].innerText == currentPlayer && cellDivs[5].innerText == currentPlayer && cellDivs[8].innerText == currentPlayer) || // Right Column
         (cellDivs[0].innerText == currentPlayer && cellDivs[4].innerText == currentPlayer && cellDivs[8].innerText == currentPlayer) || // Diagnoal TL to BR
         (cellDivs[2].innerText == currentPlayer && cellDivs[4].innerText == currentPlayer && cellDivs[6].innerText == currentPlayer)) { // Diagnoal TR to BL
-        alert(`You have Won!`)
+        document.querySelector('h2').innerText = `${currentPlayer} has Won!!!`
     } 
 }
 
